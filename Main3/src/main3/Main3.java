@@ -18,13 +18,21 @@ public class Main3 {
 		{
 			System.out.println("0～100の範囲で入力してください");
 		}
-		else if (score < 60)
+		else if (score >= 80)
 		{
-			System.out.println("不合格");
+			System.out.println("優");
+		}
+		else if (score >= 70 || score < 80)
+		{
+			System.out.println("良");
+		}
+		else if (score >= 60 || score < 70)
+		{
+			System.out.println("可");
 		}
 		else
 		{
-			System.out.println("合格");
+			System.out.println("不可");
 		}
 	}
 }
