@@ -3,9 +3,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
+//Main3クラス（全体の処理を実行する）
 public class Main3 {
-	public static void main (String[] args) throws IOException
-	{
+	//@throws IOException 入出力処理中に例外が発生する可能性あり
+	public static void main (String[] args) throws IOException{
+		// ここに処理を記述
 		System.out.println("0~100を入力してください");
 		
 		BufferedReader br =
@@ -14,24 +17,15 @@ public class Main3 {
 		String str = br.readLine();
 		int score = Integer.parseInt(str);
 		
-		if (score > 100 || score < 0)
-		{
+		if (score > 100 || score < 0) {
 			System.out.println("0～100の範囲で入力してください");
-		}
-		else if (score >= 80)
-		{
+		} else if (score >= 80) {
 			System.out.println("優");
-		}
-		else if (score >= 70 || score < 80)
-		{
+		} else if (score >= 70 || score < 80) {
 			System.out.println("良");
-		}
-		else if (score >= 60 || score < 70)
-		{
+		} else if (score >= 60 || score < 70) {
 			System.out.println("可");
-		}
-		else
-		{
+		} else {
 			System.out.println("不可");
 		}
 	}
