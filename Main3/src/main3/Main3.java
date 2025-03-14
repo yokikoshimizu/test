@@ -4,12 +4,19 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//ユーザーに0~100を入力させる
+/**
+ * メインクラス Main3
+ */
+
 public class Main3 {
 	public static void main (String[] args) throws IOException {
 		System.out.println("0~100を入力してください");
 		
-		//【疑問点】そもそもユーザーの入力を読み取るために下記の記述はなぜ必要？
+		 /**
+	     * @param args コマンドライン引数の配列（未使用）
+	     * @throws IOException 入出力エラーが発生した場合にスローされる
+	     */
+		
 		BufferedReader br =
 				new BufferedReader (new InputStreamReader(System.in));
 		
