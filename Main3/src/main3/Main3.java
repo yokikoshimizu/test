@@ -1,3 +1,38 @@
 package main3;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
+
+//Main3クラス（全体の処理を実行する）
+public class Main3 {
+	//@throws IOException 入出力処理中に例外が発生する可能性あり
+	public static void main (String[] args) throws IOException{
+		// ここに処理を記述
+		System.out.println("0~100を入力してください");
+		
+		BufferedReader br =
+				new BufferedReader (new InputStreamReader(System.in));
+		
+		/**
+		 * @param score String型の str を int型に変換するための処理。
+		 * BufferedReader br で入力された数値は文字列で認識されるので、条件式に組み込んだ際に
+		 * intで認識されるように処理がされる。
+		 */
+		
+		String str = br.readLine();
+		int score = Integer.parseInt(str);
+		
+		if (score > 100 || score < 0) {
+			System.out.println("0～100の範囲で入力してください");
+		} else if (score >= 80) {
+			System.out.println("優");
+		} else if (score >= 70 || score < 80) {
+			System.out.println("良");
+		} else if (score >= 60 || score < 70) {
+			System.out.println("可");
+		} else {
+			System.out.println("不可");
+		}
+	}
+}
