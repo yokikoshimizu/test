@@ -14,6 +14,12 @@ public class Main3 {
 		BufferedReader br =
 				new BufferedReader (new InputStreamReader(System.in));
 		
+		/**
+		 * @param score String型の str を int型に変換するための処理。
+		 * BufferedReader br で入力された数値は文字列で認識されるので、条件式に組み込んだ際に
+		 * intで認識されるように処理がされる。
+		 */
+		
 		String str = br.readLine();
 		int score = Integer.parseInt(str);
 		
