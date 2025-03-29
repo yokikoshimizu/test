@@ -1,8 +1,3 @@
-/**
- * 商品の単価と支払金額を比較し、不足金額を計算するプログラム。
- * ユーザーは3つの商品について情報を入力し、各商品ごとの不足額と全体の不足額を出力する。
- */
-
 package main4;
 
 import java.io.IOException;
@@ -10,8 +5,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * メインクラス Main4
- */
+* メインクラス Main4
+*/
 public class Main4 {
 	
 	 /**
