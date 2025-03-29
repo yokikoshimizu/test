@@ -14,14 +14,12 @@ import java.io.IOException;
  * @version 1.0
  */
 
-//上記のようなJavaDocの記載例が出たのですが、上記はどういう意味なのでしょうか？？
-
 public class Main3{
 	
-	 /**
-     * @param args コマンドライン引数（使用しない）
-     * @throws IOException 入出力エラーが発生した場合にスローされる
-     */
+	/**
+ 	* @param args コマンドライン引数（使用しない）
+	* @throws IOException 入出力エラーが発生した場合にスローされる
+    */
 	
 	public static void main (String[] args) throws IOException {
 		BufferedReader br =
