@@ -4,7 +4,7 @@ public class Main4 {
      * プログラムのエントリーポイント。
      * 保険契約者リストを処理し、保険料および遅延利息金を表示する。
      *
-     * @param args コマンドライン引数（使用しない）
+     * @param args コマンドライン引数（使用しない）　
      */
 	public static void main (String[] args) 
 	{
