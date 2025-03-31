@@ -5,15 +5,14 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
-* メインクラス Main4
-*/
+ * メインクラス Main4
+ */
 public class Main4 {
-	
 	 /**
-     * メインメソッド
-     * @param args コマンドライン引数（未使用）
-     * @throws IOException 標準入力で発生する可能性のある例外
-     */
+	  * メインメソッド
+	  * @param args コマンドライン引数（未使用）
+	  * @throws IOException 標準入力で発生する可能性のある例外
+	  */
 	public static void main (String[] args) throws IOException {
 		
 		BufferedReader br =
